@@ -39,7 +39,7 @@ Make a simple app that allows the user to preview colors.
 
      ```js
       const array = ['a', 'b', 'c'];
-      const randomIndex = Math.floor(Math.random() * array.length - 1);
+      const randomIndex = Math.floor(Math.random() * array.length);
       console.log(array[randomIndex]); // Will print either 'a', 'b', or 'c'
      ```
    </details>
